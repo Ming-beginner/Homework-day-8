@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid black;
+            text-align: center;
+            width: 900px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body style="margin-left: 200px;">
+    <!--Bài 1-->
+    <h1>Thời khóa biểu</h1>
+    <h2>Bài 1:</h2>
+    <table>
+        <caption style="caption-side: top; margin-left: 0; ">Buổi sáng:</caption>
+        <thead style="font-weight: bolder;">
+            <tr>
+                <th>THỜI GIAN</th>
+                <th>Thứ Hai</th>
+                <th>Thứ Ba</th>
+                <th>Thứ Tư</th>
+                <td>Thứ Năm</td>
+                <th>Thứ Sáu</th>
+                <th>Thứ Bảy</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>7h15 - 7h50</td>
+            <td>Chào cờ</td>
+            <td>Tiếng Việt</td>
+            <td>Tiếng Việt</td>
+            <td>Toán</td>
+            <td>Âm nhạc</td>
+            <td rowspan="6">Nghỉ</td>
+        </tr>
+        <tr>
+            <td>7h55 - 8h30</td>
+            <td>Tiếng Việt</td>
+            <td>Tiếng Việt</td>
+            <td>Tiếng Việt</td>
+            <td>Thể dục</td>
+            <td>Tiếng Việt</td>
+        </tr>
+        <tr>
+            <td>8h30 - 8h50</td>
+            <td colspan="5">Ra Chơi</td>
+        </tr>
+        <tr>
+            <td>8h50 - 9h25</td>
+            <td>Tiếng Việt</td>
+            <td>Mĩ Thuật</td>
+            <td>Toán</td>
+            <td>Tiếng Việt</td>
+            <td>Tiếng Việt</td>
+        </tr>
+        <tr>
+            <td>9h30 - 10h05</td>
+            <td>Toán</td>
+            <td>Toán</td>
+            <td>Thủ công</td>
+            <td>Tiếng Việt</td>
+            <td>HĐNGLL</td>
+        </tr>
+        <tr>
+            <td>10h10 - 10h45</td>
+            <td>Đạo đức</td>
+            <td>Tự nhiên - Xã hội</td>
+            <td></td>
+            <td></td>
+            <td>SHTT</td>
+        </tr>
+    </table>
+    <table>
+        <caption style="caption-side: top; margin-left: 0; ">Buổi chiều:</caption>
+        <thead style="font-weight: bolder;">
+            <tr>
+                <th>THỜI GIAN</th>
+                <th>Thứ Hai</th>
+                <th>Thứ Ba</th>
+                <th>Thứ Tư</th>
+                <td>Thứ Năm</td>
+                <th>Thứ Sáu</th>
+                <th>Thứ Bảy</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>13h45 - 14h20</td>
+            <td>Rèn TV</td>
+            <td>Rèn Toán</td>
+            <td>Rèn TV</td>
+            <td>Rèn Toán</td>
+            <td>Tiếng Anh</td>
+            <td rowspan="6">Nghỉ</td>
+        </tr>
+        <tr>
+            <td>14h45 - 15h</td>
+            <td>Rèn TV</td>
+            <td>Rèn Toán</td>
+            <td>Rèn TV</td>
+            <td>Rèn Toán</td>
+            <td>Tiếng Anh</td>
+        </tr>
+        <tr>
+            <td>15h - 15h25</td>
+            <td colspan="5">Ra Chơi</td>
+        </tr>
+        <tr>
+            <td>15h20 - 16h</td>
+            <td>AEROBIC</td>
+            <td>Rèn chữ đẹp</td>
+            <td>Rèn KNS</td>
+            <td>Rèn chữ đẹp</td>
+            <td>SHL</td>
+        </tr>
+    </table>
+    <div style="height: 100px;"></div>
+    <!--Bài 2-->
+    <form action="">
+        Name: <input id="name" type="text" name=""> <span style="color: red;">*</span><br><br> E-mail: <input id="mail" type="email" name=""><span style="color: red;">*</span> <br><br> Website: <input id="website" type="url"><br><br> Comment:
+        <input style="display:inline-block; padding: 40px 45px" type="text" id="comment"><br><br> Gender: <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><input type="radio" name="gender" value="female" id="female">
+        <label
+            for="female">Female</label>
+            <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label><span style="color: red;">*</span><br><br>
+            <button onclick="return false;" id="btn">Submit</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
